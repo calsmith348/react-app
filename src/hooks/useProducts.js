@@ -7,7 +7,8 @@ const useProducts = () => {
 
     const filteredProduct = useMemo(() => {
         const trimedfilter = productFilter.trim();
-        if (!country && !json.hasOwnProperty(country)) return [];
+        if (!country) return [];
+        if (!json.hasOwnProperty(country)) return [];
         if (trimedfilter === '') return [];
         return json[country].filter(item => item.toLowerCase().startsWith(trimedfilter.toLowerCase()))
         // eslint-disable-next-line
@@ -19,6 +20,10 @@ const useProducts = () => {
     useEffect(() => {
         console.log('product filter =>', productFilter)
     }, [productFilter])
+
+    useEffect(() => {
+        console.log('country => ', country)
+    }, [country])
     return {filteredProduct, setProductFilter, productFilter, country, setCountry, backProductFilter}
 }
 

@@ -1,7 +1,7 @@
 {
-    "Afghanistan": ["Hoodie", "Beanie", "Belt", "Cap", "Sunglasses", "Album"],
-    "Albania": ["Hoodie", "Beanie", "Belt", "Cap", "Sunglasses", "Album"],
-    "Algeria": ["Hoodie", "Beanie", "Belt", "Cap", "Sunglasses", "Album"],
-    "Andorra": ["Hoodie", "Beanie", "Belt", "Cap", "Sunglasses", "Album"],
-    "Angola": ["Hoodie", "Beanie", "Belt", "Cap", "Sunglasses", "Album"]
+    "Afghanistan": ["Hoodie", "Beanie"],
+    "Albania": ["Belt", "Cap"],
+    "Algeria": ["Sunglasses", "Album"],
+    "Andorra": ["Hoodie", "Cap", "Sunglasses"],
+    "Angola": ["Belt", "Cap", "Album"]
 }
